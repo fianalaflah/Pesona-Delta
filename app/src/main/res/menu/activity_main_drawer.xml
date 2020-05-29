@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_wisata"
+            android:icon="@drawable/ic_place_black_24dp"
+            android:title="@string/menu_wisata" />
+        <item
+            android:id="@+id/nav_kuliner"
+            android:icon="@drawable/kuliner1"
+            android:title="@string/menu_kuliner" />
+        <item
+            android:id="@+id/nav_event"
+            android:icon="@drawable/ic_event_black_24dp"
+            android:title="@string/menu_event" />
+        <item
+            android:id="@+id/nav_citytour"
+            android:icon="@drawable/ic_airport_shuttle_black_24dp"
+            android:title="@string/menu_citytour" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/menu_share" />
+            <item
+                android:id="@+id/nav_info"
+                android:icon="@drawable/ic_create_black_24dp"
+                android:title="@string/menu_info" />
+        </menu>
+    </item>
+
+</menu>

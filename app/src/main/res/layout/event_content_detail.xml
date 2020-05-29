@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ui.event.EventDetailActivity"
+    android:background="#FFFFFF"
+    tools:showIn="@layout/event_activity_detail">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/EventPhotoDetail"
+                android:layout_width="274dp"
+                android:layout_height="355dp"
+                android:layout_marginHorizontal="72dp"
+                android:layout_marginTop="32dp"
+                app:layout_constraintDimensionRatio="H, 1:1" />
+
+            <TextView
+                android:id="@+id/EventNamaDetail"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:layout_marginHorizontal="36dp"
+                android:layout_marginTop="6dp"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:text="Festival Nyadran"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/EventTanggalDetail"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_marginHorizontal="36dp"
+                android:layout_marginTop="6dp"
+                android:text="21 Agustus 2020"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/buttonCall"
+                android:layout_width="338dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="36dp"
+                android:layout_marginTop="6dp"
+                android:background="#FFFF00"
+                android:text="NARAHUBUNG"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/buttonWeb"
+                android:layout_width="341dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="36dp"
+                android:layout_marginTop="6dp"
+                android:background="#FF4500"
+                android:text="Website"
+                android:textSize="14sp" />
+
+
+            <Button
+                android:id="@+id/buttonMap"
+                android:layout_width="343dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="36dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="32dp"
+                android:background="#32CD32"
+                android:text="LOKASI"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
