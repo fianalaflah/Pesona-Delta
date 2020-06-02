@@ -4,7 +4,7 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_title">Pesona Delta</string>
     <string name="nav_header_subtitle">38 and 37</string>
-    <string name="nav_header_desc">Navigation header</string>
+    <string name="nav_header_desc">Pesona Delta</string>
     <string name="action_settings">Settings</string>
 
     <string name="menu_citytour">City Tour</string>
@@ -24,4 +24,8 @@
     <string name="title_kuliner_activity_detail">Detail</string>
     <string name="title_event_activity_detail">Detail</string>
 
+
+    <string name="hint_password">hint Passowrd</string>
+    <string name="hint_username">hint Username</string>
+    "
 </resources>

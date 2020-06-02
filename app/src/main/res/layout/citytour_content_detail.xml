@@ -25,9 +25,10 @@
             <ImageView
                 android:id="@+id/CityTourPhotoDetail"
                 android:layout_width="264dp"
-                android:layout_height="150dp"
+                android:layout_height="134dp"
                 android:layout_marginHorizontal="72dp"
                 android:layout_marginTop="32dp"
+                android:background="@drawable/border_kuning"
                 app:layout_constraintDimensionRatio="H, 1:1" />
 
             <TextView
@@ -36,7 +37,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="36dp"
                 android:layout_marginTop="6dp"
+                android:background="@drawable/border_merah"
                 android:ellipsize="end"
+                android:gravity="center"
                 android:maxLines="2"
                 android:text="CITY TOUR"
                 android:textSize="18sp" />
@@ -47,16 +50,19 @@
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="36dp"
                 android:layout_marginTop="6dp"
+                android:background="@drawable/border_oren"
                 android:text="Candi-Museum"
                 android:textSize="18sp" />
 
             <TextView
                 android:id="@+id/CityTourDeskripsiDetail"
                 android:layout_width="match_parent"
-                android:layout_height="212dp"
+                android:layout_height="507dp"
                 android:layout_marginHorizontal="36dp"
                 android:layout_marginTop="12dp"
-                android:text="Deskripsi " />
+                android:background="@drawable/border_hijau"
+                android:text="Deskripsi "
+                android:textSize="18sp" />
 
             <TextView
                 android:layout_width="match_parent"

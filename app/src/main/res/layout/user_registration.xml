@@ -9,26 +9,59 @@
     android:gravity="center"
     android:orientation="vertical">
 
+
+    <TextView
+        android:layout_width="316dp"
+        android:layout_height="43dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="PENDAFTARAN"
+        android:textAllCaps="true"
+        android:textColor="@color/design_default_color_error"
+        android:textColorHighlight="@color/design_default_color_error"
+        android:textColorHint="@color/design_default_color_error"
+        android:textSize="36sp" />
+    <TextView
+        android:layout_width="316dp"
+        android:layout_height="43dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:text="WISATAWAN"
+        android:textAllCaps="true"
+        android:textColor="@color/design_default_color_error"
+        android:textColorHighlight="@color/design_default_color_error"
+        android:textColorHint="@color/design_default_color_error"
+        android:textSize="36sp" />
+
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
         <EditText
             android:id="@+id/name"
-            android:layout_width="382dp"
+            android:layout_width="340dp"
             android:layout_height="61dp"
-            android:backgroundTint="#C92148"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:background="@drawable/border_merah"
             android:hint="Username"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <EditText
             android:id="@+id/password_register"
-            android:layout_width="373dp"
+            android:layout_width="340dp"
             android:layout_height="63dp"
-            android:backgroundTint="#C92148"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="32dp"
+            android:background="@drawable/border_merah"
             android:hint="Password"
             android:inputType="textPassword"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/name" />
 
@@ -37,7 +70,7 @@
             android:layout_width="100dp"
             android:layout_height="55dp"
             android:layout_marginStart="48dp"
-            android:layout_marginTop="4dp"
+            android:layout_marginTop="16dp"
             android:background="#CD5C5C"
             android:text="SIMPAN"
             app:layout_constraintStart_toStartOf="parent"

@@ -5,6 +5,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.pesonadelta1.R
+import kotlinx.android.synthetic.main.event_list_item.view.*
 import kotlinx.android.synthetic.main.wisata_list_item.view.*
 
 class EventAdapter (val eventItemList: List<EventData>, val clickListener: (EventData) -> Unit) : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
@@ -22,8 +23,8 @@ class EventAdapter (val eventItemList: List<EventData>, val clickListener: (Even
 
     class PartViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         fun bind(event: EventData, clickListener: (EventData) -> Unit) {
-            itemView.wisataNama.text = event.EventNama.toString()
-            itemView.wisataPhoto.setImageResource(event.EventPhoto)
+            itemView.EventNama.text = event.EventNama.toString()
+            itemView.EventPhoto.setImageResource(event.EventPhoto)
             itemView.setOnClickListener { clickListener(event) }
         }
     }

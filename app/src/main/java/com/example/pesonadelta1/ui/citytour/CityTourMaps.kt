@@ -23,7 +23,7 @@ class CityTourMaps : AppCompatActivity(), OnMapReadyCallback {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.wisata_activity_maps)
+        setContentView(R.layout.citytour_activity_maps)
 
         //        custom start
 

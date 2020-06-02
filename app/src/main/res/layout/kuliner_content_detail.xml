@@ -24,8 +24,8 @@
 
             <ImageView
                 android:id="@+id/KulinerPhotoDetail"
-                android:layout_width="264dp"
-                android:layout_height="150dp"
+                android:layout_width="272dp"
+                android:layout_height="207dp"
                 android:layout_marginHorizontal="72dp"
                 android:layout_marginTop="32dp"
                 app:layout_constraintDimensionRatio="H, 1:1" />
@@ -36,7 +36,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="36dp"
                 android:layout_marginTop="6dp"
+                android:background="@drawable/border_hijau"
                 android:ellipsize="end"
+                android:gravity="center"
                 android:maxLines="2"
                 android:text="Lontong Kupang"
                 android:textSize="18sp" />
@@ -47,6 +49,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="36dp"
                 android:layout_marginTop="6dp"
+                android:background="@drawable/border_merah"
                 android:text="Rp.10.000/Porsi"
                 android:textSize="18sp" />
 
@@ -54,10 +57,11 @@
                 android:id="@+id/KulinerDeskripsiDetail"
                 android:layout_width="match_parent"
                 android:layout_height="238dp"
+                android:layout_gravity="center_vertical"
                 android:layout_marginHorizontal="36dp"
                 android:layout_marginTop="12dp"
-                android:text="Deskripsi Kuliner" />
-
+                android:background="@drawable/border_kuning"
+                android:text="Lontong kupang adalah makanan khas Sidoarjo, Jawa Timur. Sepiring lontong kupang terdiri dari lontong, kuah petis, kupang, lentho, dan sate kerang. Rasanya gurih menggugah selera.Olahan ini menghasilkan sajian bercita rasa khas. Rasa gurih dari kuah, dan petis yang beraroma membuat udang kaya rasa.Selain itu teksturnya juga beragam. Lontong yang padat berpadu dengan kupang yang kenyal, dan lentho yang renyah." />
             <Button
                 android:id="@+id/buttonCall"
                 android:layout_width="338dp"

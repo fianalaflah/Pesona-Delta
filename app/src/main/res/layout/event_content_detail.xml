@@ -26,10 +26,11 @@
 
             <ImageView
                 android:id="@+id/EventPhotoDetail"
-                android:layout_width="274dp"
-                android:layout_height="355dp"
+                android:layout_width="265dp"
+                android:layout_height="388dp"
                 android:layout_marginHorizontal="72dp"
                 android:layout_marginTop="32dp"
+                android:background="@drawable/border_hijau"
                 app:layout_constraintDimensionRatio="H, 1:1" />
 
             <TextView
@@ -39,6 +40,7 @@
                 android:layout_marginHorizontal="36dp"
                 android:layout_marginTop="6dp"
                 android:ellipsize="end"
+                android:gravity="center"
                 android:maxLines="2"
                 android:text="Festival Nyadran"
                 android:textSize="18sp" />

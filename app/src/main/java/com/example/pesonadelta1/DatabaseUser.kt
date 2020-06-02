@@ -9,7 +9,8 @@ class DatabaseUser  (context: Context) : SQLiteOpenHelper(context, dbname, facto
 
     override fun onCreate(p0: SQLiteDatabase?) {
         p0?.execSQL("create table user(id integer primary key autoincrement," +
-                "name varchar(100), password varchar(100))")
+                "name varchar(50), " +
+                "password varchar(50))")
     }
 
     override fun onUpgrade(p0: SQLiteDatabase?, p1: Int, p2: Int) {

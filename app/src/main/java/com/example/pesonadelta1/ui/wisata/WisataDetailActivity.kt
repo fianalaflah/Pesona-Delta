@@ -16,7 +16,6 @@ class WisataDetailActivity : AppCompatActivity() {
         setSupportActionBar(toolbar)
         supportActionBar?.setDisplayHomeAsUpEnabled(false)
 
-
         var intentThatStartedThisActivity = intent
         if (intentThatStartedThisActivity.hasExtra(Intent.EXTRA_COMPONENT_NAME)) {
             putData(intentThatStartedThisActivity)

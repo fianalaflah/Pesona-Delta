@@ -98,7 +98,7 @@ class WisataFragment : Fragment() {
             "-7.434000",
             "112.719917"))
         partList.add(WisataData(R.drawable.wjayandaru,
-            "Alun-Alun Kabupaten Sidoarjo",
+            "Alun-Alun Sidoarjo",
             "Tempat wisata di Sidoarjo yang wajib kamu kunjungi selanjutnya adalah alun-alun. Tempat wisata di Sidoarjo ini sangat mudah untuk diakses karena terletak di jantung kota. Tempat ini menjadi menjadi pilihan utama masyarakat Sidoarjo untuk menghabiskan akhir pekan atau hari libur. Selain itu terdapat monumen Jayandaru juga di tengah Alun-Alun Sidoarjo sehingga menjadi icon.",
             "0318941104",
             "https://www.tripadvisor.co.id/Attraction_Review-g3175994-d11807546-Reviews-Jayandaru_Monument-Sidoarjo_East_Java_Java.html/",

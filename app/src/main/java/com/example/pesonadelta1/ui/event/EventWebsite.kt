@@ -32,7 +32,7 @@ class EventWebsite : AppCompatActivity() {
             webView.webViewClient = object : WebViewClient() {
                 override fun onPageFinished(view: WebView?, url: String?) {
                     if (view != null) {
-                        view.loadUrl("javascript:alert('Load selesai')")
+                        view.loadUrl("javascript:alert('')")
                     }
                 }
             }

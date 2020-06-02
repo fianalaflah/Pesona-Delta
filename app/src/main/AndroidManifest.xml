@@ -32,6 +32,9 @@
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
         <!--        Maps-->
         <activity
             android:name=".ui.citytour.CityTourMaps"
@@ -111,7 +114,7 @@
     </activity>
 
         <activity
-            android:name=".UserAction"
+            android:name=".MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
 
@@ -121,10 +124,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".MainActivity"
-            android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar"/>
+       <activity
+        android:name=".UserAction"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme.NoActionBar"/>
 
         <!--       Website-->
         <activity

@@ -6,11 +6,13 @@
         android:id="@+id/user_c"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical" />
+        android:orientation="vertical" >
 
-    <include android:id="@+id/login_layout"
-        android:visibility="visible"
-        layout="@layout/login" />
+        <include
+            android:id="@+id/login_layout"
+            layout="@layout/login"
+            android:visibility="visible" />
+    </LinearLayout>
 
     <include android:id="@+id/registration_layout"
         android:visibility="gone"

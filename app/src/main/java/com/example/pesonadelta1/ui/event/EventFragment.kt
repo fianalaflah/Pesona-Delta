@@ -35,7 +35,8 @@ class EventFragment : Fragment() {
         showDetailActivity.putExtra(Intent.EXTRA_SPLIT_NAME, EventData.EventPhoto.toString())
         showDetailActivity.putExtra(Intent.EXTRA_COMPONENT_NAME, EventData.EventNama.toString())
         showDetailActivity.putExtra(Intent.EXTRA_INSTALLER_PACKAGE_NAME, EventData.EventTanggal.toString())
-        showDetailActivity.putExtra(Intent.EXTRA_PACKAGE_NAME, EventData.EventWebsite.toString())
+        showDetailActivity.putExtra(Intent.EXTRA_PACKAGE_NAME, EventData.EventNarahubung.toString())
+        showDetailActivity.putExtra(Intent.EXTRA_REFERRER_NAME, EventData.EventWebsite.toString())
         showDetailActivity.putExtra(Intent.EXTRA_REFERRER, EventData.EventMapLat.toString())
         showDetailActivity.putExtra(Intent.EXTRA_BCC, EventData.EventMapLong.toString())
         startActivity(showDetailActivity)
@@ -65,7 +66,7 @@ class EventFragment : Fragment() {
             "-7.447516",
             "112.705335"))
         partList.add(EventData(R.drawable.epekanolahraga,
-            "Pekan Olahraga Pelajar Sidoarjo 2019",
+            "Pekan Olahraga Pelajar Sidoarjo",
             "Dilaksanakan Pada 06-10 November 2019",
             "0318941104",
             "http://disporapar.sidoarjokab.go.id/",

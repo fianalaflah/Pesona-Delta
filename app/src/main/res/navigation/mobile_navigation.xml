@@ -3,28 +3,28 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/nav_home">
+    app:startDestination="@+id/nav_info">
 
     <fragment
-        android:id="@+id/nav_home"
+        android:id="@+id/nav_citytour"
         android:name="com.example.pesonadelta1.ui.citytour.CityTourFragment"
         android:label="@string/menu_citytour"
         tools:layout="@layout/citytour_fragment" />
 
     <fragment
-        android:id="@+id/nav_gallery"
+        android:id="@+id/nav_wisata"
         android:name="com.example.pesonadelta1.ui.wisata.WisataFragment"
         android:label="@string/menu_wisata"
         tools:layout="@layout/wisata_fragment" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
+        android:id="@+id/nav_kuliner"
         android:name="com.example.pesonadelta1.ui.kuliner.KulinerFragment"
         android:label="@string/menu_kuliner"
         tools:layout="@layout/kuliner_fragment" />
 
     <fragment
-        android:id="@+id/nav_tools"
+        android:id="@+id/nav_event"
         android:name="com.example.pesonadelta1.ui.event.EventFragment"
         android:label="@string/menu_event"
         tools:layout="@layout/event_fragment" />
@@ -36,7 +36,7 @@
         tools:layout="@layout/share_fragment" />
 
     <fragment
-        android:id="@+id/nav_send"
+        android:id="@+id/nav_info"
         android:name="com.example.pesonadelta1.ui.info.InfoFragment"
         android:label="@string/menu_info"
         tools:layout="@layout/info_fragment" />
