@@ -66,7 +66,7 @@ class EventFragment : Fragment() {
             "-7.447516",
             "112.705335"))
         partList.add(EventData(R.drawable.epekanolahraga,
-            "Pekan Olahraga Pelajar Sidoarjo",
+            "Pekan Olahraga Pelajar",
             "Dilaksanakan Pada 06-10 November 2019",
             "0318941104",
             "http://disporapar.sidoarjokab.go.id/",

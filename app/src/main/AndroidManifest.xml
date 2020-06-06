@@ -32,15 +32,36 @@
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".ui.info.InfoMaps"
+            android:label="@string/title_activity_info_maps"
+            android:parentActivityName="ui.info.InfoDetailActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.pesonadelta1.ui.info.InfoDetailActivity" />
+
+        </activity>
+        <activity
+            android:name=".ui.info.InfoDetailActivity"
+            android:label="Detail info"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.pesonadelta1.MainActivity" />
+        </activity>
+
+
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
-        <!--        Maps-->
         <activity
             android:name=".ui.citytour.CityTourMaps"
             android:label="@string/title_activity_citytour_maps"
             android:parentActivityName="ui.citytour.CityTourDetailActivity"
-            android:theme="@style/AppTheme.NoActionBar" >
+            android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.pesonadelta1.ui.citytour.CityTourDetailActivity" />
@@ -54,12 +75,11 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.pesonadelta1.MainActivity" />
         </activity>
-
         <activity
             android:name=".ui.wisata.WisataMaps"
             android:label="@string/title_activity_wisata_maps"
             android:parentActivityName="ui.wisata.WisataDetailActivity"
-            android:theme="@style/AppTheme.NoActionBar" >
+            android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.pesonadelta1.ui.wisata.WisataDetailActivity" />
@@ -73,91 +93,92 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.pesonadelta1.MainActivity" />
         </activity>
-
-
         <activity
             android:name=".ui.kuliner.KulinerMaps"
             android:label="@string/title_activity_kuliner_maps"
             android:parentActivityName="ui.kuliner.KulinerDetailActivity"
-            android:theme="@style/AppTheme.NoActionBar" >
+            android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.pesonadelta1.ui.kuliner.KulinerDetailActivity" />
         </activity>
         <activity
-        android:name=".ui.kuliner.KulinerDetailActivity"
-        android:label="Detail Kuliner"
-        android:parentActivityName=".MainActivity"
-        android:theme="@style/AppTheme.NoActionBar">
-        <meta-data
-            android:name="android.support.PARENT_ACTIVITY"
-            android:value="com.example.pesonadelta1.MainActivity" />
-    </activity>
-
-    <activity
+            android:name=".ui.kuliner.KulinerDetailActivity"
+            android:label="Detail Kuliner"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.pesonadelta1.MainActivity" />
+        </activity>
+        <activity
             android:name=".ui.event.EventMaps"
             android:label="@string/title_activity_event_maps"
             android:parentActivityName="ui.event.EventDetailActivity"
             android:theme="@style/AppTheme.NoActionBar">
-        <meta-data
-            android:name="android.support.PARENT_ACTIVITY"
-            android:value="com.example.pesonadelta1.ui.event.EventDetailActivity" />
-    </activity>
-    <activity
-        android:name=".ui.event.EventDetailActivity"
-        android:label="Detail Event"
-        android:parentActivityName=".MainActivity"
-        android:theme="@style/AppTheme.NoActionBar">
-        <meta-data
-            android:name="android.support.PARENT_ACTIVITY"
-            android:value="com.example.pesonadelta1.MainActivity" />
-    </activity>
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.pesonadelta1.ui.event.EventDetailActivity" />
+        </activity>
+        <activity
+            android:name=".ui.event.EventDetailActivity"
+            android:label="Detail Event"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.pesonadelta1.MainActivity" />
+        </activity>
+
 
         <activity
-            android:name=".MainActivity"
+            android:name=".UserAction"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-       <activity
-        android:name=".UserAction"
-        android:label="@string/app_name"
-        android:theme="@style/AppTheme.NoActionBar"/>
 
-        <!--       Website-->
+        <activity android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <!-- Website -->
         <activity
             android:name=".ui.citytour.CityTourWebsite"
             android:label="Website pendaftaran City Tour"
-            android:theme="@style/AppTheme.NoActionBar"
-            android:parentActivityName=".ui.citytour.CityTourDetailActivity">
-
-        </activity>
+            android:parentActivityName=".ui.citytour.CityTourDetailActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+    </activity>
         <activity
             android:name=".ui.wisata.WisataWebsite"
             android:label="Website Info Wisata"
-            android:theme="@style/AppTheme.NoActionBar"
-            android:parentActivityName=".ui.wisata.WisataDetailActivity">
-
-        </activity>
-        <activity
+            android:parentActivityName=".ui.wisata.WisataDetailActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+</activity>
+    <activity
             android:name=".ui.kuliner.KulinerWebsite"
             android:label="Website Resep Kuliner"
-            android:theme="@style/AppTheme.NoActionBar"
-            android:parentActivityName=".ui.kuliner.KulinerDetailActivity">
-
-        </activity>
-        <activity
+            android:parentActivityName=".ui.kuliner.KulinerDetailActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+    </activity>
+<activity
             android:name=".ui.event.EventWebsite"
             android:label="Website Event"
-            android:theme="@style/AppTheme.NoActionBar"
-            android:parentActivityName=".ui.event.EventDetailActivity">
+            android:parentActivityName=".ui.event.EventDetailActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+    </activity>
+<activity
+            android:name=".ui.info.InfoWebsite"
+            android:label="Website Info Aplikasi"
+            android:parentActivityName=".ui.info.InfoDetailActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+    </activity>
 
-        </activity>
+
 
     </application>
 

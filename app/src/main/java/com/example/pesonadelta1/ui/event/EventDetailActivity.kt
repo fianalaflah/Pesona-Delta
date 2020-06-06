@@ -7,7 +7,7 @@ import androidx.appcompat.app.AppCompatActivity
 import com.example.pesonadelta1.R
 import kotlinx.android.synthetic.main.app_bar_main.*
 import kotlinx.android.synthetic.main.event_content_detail.*
-import kotlinx.android.synthetic.main.user_registration.*
+import kotlinx.android.synthetic.main.registrasi.*
 import kotlinx.android.synthetic.main.wisata_content_detail.*
 import kotlinx.android.synthetic.main.wisata_content_detail.buttonCall
 import kotlinx.android.synthetic.main.wisata_content_detail.buttonMap

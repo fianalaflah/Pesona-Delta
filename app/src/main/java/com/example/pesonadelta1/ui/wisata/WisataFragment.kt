@@ -59,7 +59,7 @@ class WisataFragment : Fragment() {
             "Pulau Lusi",
             "Wisata Pulau Lusi (tadinya bernamakan Pulau Sarinah) terletak di tengah-tengah Sungai Porong perbatasan antara Pasuruan dan Sidoarjo yang berjarak sekitar 25 kilometer dari darat Tlocor, Desa Kedungpandan Jabon. Untuk sampai ke pulau ini pengunjung dapat menggunakan armada perahu mesin yang dikelola kelompok sadar wisata desa setempat. Mengutip kkp.go.id, pulau ini memiliki luas kurang lebih 93,4 hektar",
             "0318941104",
-            "https://travelingyuk.com/pulau-lusi-sidoarjo/16916/",
+            "https://travelingyuk.com/pulau-lusi-sidoarjo/169160/",
             "-7.552833",
             " 112.845556"))
         partList.add(WisataData(R.drawable.wgor,

@@ -36,11 +36,12 @@
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="36dp"
                 android:layout_marginTop="6dp"
-                android:background="@drawable/border_hijau"
+                android:background="@drawable/border_oren"
                 android:ellipsize="end"
                 android:gravity="center"
                 android:maxLines="2"
                 android:text="Lontong Kupang"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
                 android:textSize="18sp" />
 
             <TextView
@@ -49,8 +50,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="36dp"
                 android:layout_marginTop="6dp"
-                android:background="@drawable/border_merah"
+                android:background="@drawable/border_oren"
                 android:text="Rp.10.000/Porsi"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
                 android:textSize="18sp" />
 
             <TextView
@@ -60,8 +62,10 @@
                 android:layout_gravity="center_vertical"
                 android:layout_marginHorizontal="36dp"
                 android:layout_marginTop="12dp"
-                android:background="@drawable/border_kuning"
-                android:text="Lontong kupang adalah makanan khas Sidoarjo, Jawa Timur. Sepiring lontong kupang terdiri dari lontong, kuah petis, kupang, lentho, dan sate kerang. Rasanya gurih menggugah selera.Olahan ini menghasilkan sajian bercita rasa khas. Rasa gurih dari kuah, dan petis yang beraroma membuat udang kaya rasa.Selain itu teksturnya juga beragam. Lontong yang padat berpadu dengan kupang yang kenyal, dan lentho yang renyah." />
+                android:background="@drawable/border_oren"
+                android:text="Lontong kupang adalah makanan khas Sidoarjo, Jawa Timur. Sepiring lontong kupang terdiri dari lontong, kuah petis, kupang, lentho, dan sate kerang. Rasanya gurih menggugah selera.Olahan ini menghasilkan sajian bercita rasa khas. Rasa gurih dari kuah, dan petis yang beraroma membuat udang kaya rasa.Selain itu teksturnya juga beragam. Lontong yang padat berpadu dengan kupang yang kenyal, dan lentho yang renyah."
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="16sp" />
             <Button
                 android:id="@+id/buttonCall"
                 android:layout_width="338dp"

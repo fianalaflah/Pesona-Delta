@@ -28,7 +28,6 @@
                 android:layout_height="134dp"
                 android:layout_marginHorizontal="72dp"
                 android:layout_marginTop="32dp"
-                android:background="@drawable/border_kuning"
                 app:layout_constraintDimensionRatio="H, 1:1" />
 
             <TextView
@@ -37,11 +36,12 @@
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="36dp"
                 android:layout_marginTop="6dp"
-                android:background="@drawable/border_merah"
+                android:background="@drawable/border_hijau"
                 android:ellipsize="end"
                 android:gravity="center"
                 android:maxLines="2"
                 android:text="CITY TOUR"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
                 android:textSize="18sp" />
 
             <TextView
@@ -50,8 +50,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="36dp"
                 android:layout_marginTop="6dp"
-                android:background="@drawable/border_oren"
+                android:background="@drawable/border_hijau"
                 android:text="Candi-Museum"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
                 android:textSize="18sp" />
 
             <TextView
@@ -62,6 +63,7 @@
                 android:layout_marginTop="12dp"
                 android:background="@drawable/border_hijau"
                 android:text="Deskripsi "
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
                 android:textSize="18sp" />
 
             <TextView
@@ -72,6 +74,7 @@
                 android:ellipsize="end"
                 android:maxLines="2"
                 android:text="Info Pendaftaran Jelajah Darjo:"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
                 android:textSize="18sp" />
 
 
