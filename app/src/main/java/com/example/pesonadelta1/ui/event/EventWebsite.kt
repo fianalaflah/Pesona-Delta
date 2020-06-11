@@ -13,17 +13,12 @@ import com.example.pesonadelta1.R
 import kotlinx.android.synthetic.main.event_website.*
 
 class EventWebsite : AppCompatActivity() {
-
     @SuppressLint("SetJavaScriptEnabled")
-
     override fun onCreate(savedInstanceState: Bundle?) {
-
         super.onCreate(savedInstanceState)
         setContentView(R.layout.event_website)
         val webView = findViewById<WebView>(R.id.eventWebsite)
-
         actionBar?.setDisplayHomeAsUpEnabled(false)
-
         var intentThatStartedThisActivity = intent
 
         if (intentThatStartedThisActivity.hasExtra(Intent.ACTION_WEB_SEARCH)) {
@@ -33,9 +28,7 @@ class EventWebsite : AppCompatActivity() {
                 override fun onPageFinished(view: WebView?, url: String?) {
                     if (view != null) {
                         view.loadUrl("javascript:alert('')")
-                    }
-                }
-            }
+                    } } }
             webView.webChromeClient = object : WebChromeClient() {
                 override fun onJsAlert(
                     view: WebView?,
@@ -45,15 +38,8 @@ class EventWebsite : AppCompatActivity() {
                 ): Boolean {
                     Toast.makeText(this@EventWebsite, message, Toast.LENGTH_LONG).show()
                     if (result != null) {
-                        result.confirm()
-                    }
-                    return true
-                }
-            }
+                        result.confirm() }
+                    return true } }
             webView.loadUrl(eventWebsite)
         } else {
-//            Intent has no ACTION_WEB_SEARCH
-        }
-
-    }
-}
+        } } }

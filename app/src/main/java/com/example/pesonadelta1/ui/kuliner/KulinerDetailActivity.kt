@@ -43,6 +43,7 @@ class KulinerDetailActivity : AppCompatActivity() {
         KulinerDeskripsiDetail.text = deskripsi
 
 
+
         buttonMap.setOnClickListener {
             openMap(mapLat, mapLong, nama)
         }
@@ -76,6 +77,4 @@ class KulinerDetailActivity : AppCompatActivity() {
         callThis.setData(Uri.parse("tel:"+ number))
         startActivity(callThis)
     }
-
-
 }

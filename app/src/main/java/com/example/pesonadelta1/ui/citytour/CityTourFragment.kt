@@ -40,9 +40,10 @@ class CityTourFragment : Fragment() {
         startActivity(showDetailActivity)
     }
 
+
     private fun createWisataData() : List<CityTourData> {
         val partList = ArrayList<CityTourData>()
-        partList.add(CityTourData(R.drawable.tour,
+        partList.add(CityTourData(R.drawable.cta,
             "Senin Jelajah Darjo",
             " Rute:Alun-Alun Sidoarjo, Mpu Tantular, Candi Pari, Lusi",
             "Bagi Wisatawan yang akan mengikuti City Tour Jelajah Darjo. Harap mendaftar terlebih dahulu agar dapat disesuaikan dengan jadwal dan wisatawan yang bergabung pada Jelajah Darjo kali ini.\n" +
@@ -60,7 +61,7 @@ class CityTourFragment : Fragment() {
             "-7.447329",
             "112.716146"
         ))
-        partList.add(CityTourData(R.drawable.destination,
+        partList.add(CityTourData(R.drawable.ctb,
             " Rabu Jelajah Darjo",
             "Rute:Alun-Alun Sidoarjo, Taman Abhirama, Intako",
             "Bagi Wisatawan yang akan mengikuti City Tour Jelajah Darjo. Harap mendaftar terlebih dahulu agar dapat disesuaikan dengan jadwal dan wisatawan yang bergabung pada Jelajah Darjo kali ini. \n" +
@@ -68,7 +69,7 @@ class CityTourFragment : Fragment() {
                     "Berikut merupakan hal yang harus diperhatikan bagi Wisatawan yang mengikuti rangkaian City Tour Jelajah Darjo. Harap wisatawan datang tepat waktu pada jadwal yang telah ditentukan. yakni:\n" +
                     "Pukul : 08.00 WIB \n" +
                     "Tempat: DISPORAPAR Sidoarjo \n" +
-                    "Biaya: Hbiaya tiket masuk wisata\\n \n" +
+                    "Biaya: biaya tiket masuk wisata\n" +
                     "\n" +
                     "Terimakasih sudah mengikuti City Tour Jelajah Darjo. Semoga mendapatkan pengalaman menyenangkan dan mengesankan. \n" +
                     "Tresno Darjo!\n" +
@@ -77,7 +78,7 @@ class CityTourFragment : Fragment() {
             "http://disporapar.sidoarjokab.go.id/",
             "-7.447329",
             "112.716146" ))
-        partList.add(CityTourData(R.drawable.event,
+        partList.add(CityTourData(R.drawable.ctc,
             " Sabtu Jelajah Darjo ",
             "Rute:Alun-Alun Sidoarjo, Bursa Lontong Kupang, Candi Sumur, Lusi",
             "Bagi Wisatawan yang akan mengikuti City Tour Jelajah Darjo. Harap mendaftar terlebih dahulu agar dapat disesuaikan dengan jadwal dan wisatawan yang bergabung pada Jelajah Darjo kali ini. \n" +
@@ -94,7 +95,7 @@ class CityTourFragment : Fragment() {
             "http://disporapar.sidoarjokab.go.id/",
             "-7.447329",
             "112.716146"))
-        partList.add(CityTourData(R.drawable.citytour,
+        partList.add(CityTourData(R.drawable.ctd,
             "Minggu Jelajah Darjo",
             "Rute:Alun-Alun Sidoarjo, Mpu Tantular, Klepon Bulang, Alas Prambon",
             "Bagi Wisatawan yang akan mengikuti City Tour Jelajah Darjo. Harap mendaftar terlebih dahulu agar dapat disesuaikan dengan jadwal dan wisatawan yang bergabung pada Jelajah Darjo kali ini.\n" +

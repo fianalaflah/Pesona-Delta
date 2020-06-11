@@ -43,6 +43,7 @@ class KulinerFragment : Fragment() {
         startActivity(showDetailActivity)
     }
 
+
     private fun createWisataData() : List<KulinerData> {
         val partList = ArrayList<KulinerData>()
         partList.add(KulinerData(R.drawable.kkupang,

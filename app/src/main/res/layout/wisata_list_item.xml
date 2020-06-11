@@ -5,17 +5,20 @@
     android:layout_marginHorizontal="8dp"
     android:layout_marginVertical="4dp"
     android:background="@drawable/border_merah"
-    android:padding="8dp">
+    android:backgroundTint="#FFCDD2"
+    android:padding="6dp">
 
     <ImageView
         android:id="@+id/wisataPhoto"
-        android:layout_width="135dp"
-        android:layout_height="111dp" />
+        android:layout_width="100dp"
+        android:layout_height="111dp"
+        android:background="@drawable/border_merah" />
 
     <LinearLayout
         android:layout_width="276dp"
         android:layout_height="110dp"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:padding="6dp">
 
         <TextView
             android:id="@+id/wisataNama"

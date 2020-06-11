@@ -12,17 +12,12 @@ import androidx.appcompat.app.AppCompatActivity
 import com.example.pesonadelta1.R
 
 class InfoWebsite : AppCompatActivity() {
-
     @SuppressLint("SetJavaScriptEnabled")
-
     override fun onCreate(savedInstanceState: Bundle?) {
-
         super.onCreate(savedInstanceState)
         setContentView(R.layout.info_website)
         val webView = findViewById<WebView>(R.id.InfoWebsite)
-
         actionBar?.setDisplayHomeAsUpEnabled(false)
-
         var intentThatStartedThisActivity = intent
 
         if (intentThatStartedThisActivity.hasExtra(Intent.ACTION_WEB_SEARCH)) {
@@ -32,10 +27,7 @@ class InfoWebsite : AppCompatActivity() {
             webView.webViewClient = object : WebViewClient() {
                 override fun onPageFinished(view: WebView?, url: String?) {
                     if (view != null) {
-                        view.loadUrl("javascript:alert('')")
-                    }
-                }
-            }
+                        view.loadUrl("javascript:alert('')") } } }
             webView.webChromeClient = object : WebChromeClient() {
                 override fun onJsAlert(
                     view: WebView?,
@@ -45,15 +37,8 @@ class InfoWebsite : AppCompatActivity() {
                 ): Boolean {
                     Toast.makeText(this@InfoWebsite, message, Toast.LENGTH_LONG).show()
                     if (result != null) {
-                        result.confirm()
-                    }
-                    return true
-                }
-            }
+                        result.confirm() }
+                    return true } }
             webView.loadUrl(InfoWebsite)
-        } else {
-//            Intent has no ACTION_WEB_SEARCH
-        }
-    }
-}
+        } else { } } }
 

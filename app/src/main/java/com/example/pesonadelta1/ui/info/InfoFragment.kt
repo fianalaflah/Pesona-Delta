@@ -43,6 +43,7 @@ class InfoFragment : Fragment() {
         startActivity(showDetailActivity)
     }
 
+
     private fun createInfoData(): List<InfoData> {
         val partList = ArrayList<InfoData>()
         partList.add(
@@ -54,8 +55,8 @@ class InfoFragment : Fragment() {
                         "Fakultas: Ilmu Komputer",
                 "0318706369",
                 "https://www.upnjatim.ac.id/",
-                "-7.333520",
-                "12.790535"
+                "-7.333513",
+                "112.790431"
             )
         )
         partList.add(
@@ -67,8 +68,8 @@ class InfoFragment : Fragment() {
                         "Fakultas: Ilmu Komputer",
                 "0318706369",
                 "https://www.upnjatim.ac.id/",
-                "-7.333520",
-                "12.790535"))
+                "-7.333513",
+                "112.790431"))
         return partList
     }
 }

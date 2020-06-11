@@ -20,93 +20,102 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:layout_margin="12dp"
+            android:background="#DCEDC8"
+            android:padding="6dp">
 
             <ImageView
                 android:id="@+id/CityTourPhotoDetail"
-                android:layout_width="264dp"
-                android:layout_height="134dp"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
                 android:layout_marginHorizontal="72dp"
                 android:layout_marginTop="32dp"
-                app:layout_constraintDimensionRatio="H, 1:1" />
-
+                android:background="#FFFFFF"
+                app:srcCompat="@drawable/citytour"/>
             <TextView
                 android:id="@+id/CityTourNamaDetail"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="36dp"
-                android:layout_marginTop="6dp"
-                android:background="@drawable/border_hijau"
+                android:layout_marginTop="8dp"
                 android:ellipsize="end"
                 android:gravity="center"
                 android:maxLines="2"
+                android:padding="6dp"
                 android:text="CITY TOUR"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body2"
                 android:textSize="18sp" />
+
 
             <TextView
                 android:id="@+id/CityTourRuteDetail"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="36dp"
-                android:layout_marginTop="6dp"
-                android:background="@drawable/border_hijau"
                 android:text="Candi-Museum"
+                android:textAlignment="center"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-                android:textSize="18sp" />
+                android:textSize="24sp" />
 
             <TextView
                 android:id="@+id/CityTourDeskripsiDetail"
                 android:layout_width="match_parent"
-                android:layout_height="507dp"
+                android:layout_height="wrap_content"
                 android:layout_marginHorizontal="36dp"
-                android:layout_marginTop="12dp"
-                android:background="@drawable/border_hijau"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="12dp"
+                android:background="#F1F8E9"
+                android:fontFamily="sans-serif-light"
+                android:padding="6dp"
                 android:text="Deskripsi "
+                android:textAlignment="viewStart"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-                android:textSize="18sp" />
-
+                android:textSize="16dp" />
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="36dp"
-                android:layout_marginTop="6dp"
                 android:ellipsize="end"
                 android:maxLines="2"
                 android:text="Info Pendaftaran Jelajah Darjo:"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-                android:textSize="18sp" />
-
+                android:textSize="16dp" />
 
             <Button
                 android:id="@+id/buttonCall"
-                android:layout_width="338dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="36dp"
                 android:layout_marginTop="6dp"
-                android:background="?attr/colorError"
+                android:layout_marginEnd="36dp"
+                android:background="#FDD835"
                 android:text="NARAHUBUNG"
                 android:textSize="14sp" />
 
             <Button
                 android:id="@+id/buttonWeb"
-                android:layout_width="341dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="36dp"
                 android:layout_marginTop="6dp"
+                android:layout_marginEnd="36dp"
                 android:background="@android:color/holo_red_dark"
+                android:backgroundTint="#FB8C00"
                 android:text="WEBSITE"
                 android:textSize="14sp" />
 
 
             <Button
                 android:id="@+id/buttonMap"
-                android:layout_width="340dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="36dp"
                 android:layout_marginTop="6dp"
+                android:layout_marginEnd="36dp"
                 android:layout_marginBottom="32dp"
-                android:background="#FFFF00"
+                android:background="#7CB342"
                 android:text="LOKASI PENDAFTARAN"
                 android:textSize="14sp" />
 

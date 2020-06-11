@@ -19,10 +19,12 @@ class EventDetailActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.event_activity_detail)
         setSupportActionBar(toolbar)
+
         supportActionBar?.setDisplayHomeAsUpEnabled(false)
         var intentThatStartedThisActivity = intent
         if (intentThatStartedThisActivity.hasExtra(Intent.EXTRA_COMPONENT_NAME)) {
             putData(intentThatStartedThisActivity)
+
         }
 
     }
@@ -51,7 +53,6 @@ class EventDetailActivity : AppCompatActivity() {
             openWeb(website)
         }
     }
-
     private fun openMap(latitude: String, longitude: String, EventNama: String) {
         val showMapActivity = Intent(this, EventMaps::class.java)
         showMapActivity.putExtra(Intent.ACTION_ASSIST, latitude)
@@ -72,6 +73,4 @@ class EventDetailActivity : AppCompatActivity() {
         callThis.setData(Uri.parse("tel:"+ number))
         startActivity(callThis)
     }
-
-
 }

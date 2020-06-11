@@ -21,6 +21,7 @@ class EventFragment : Fragment() {
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
+
     ): View? {
         val root = inflater.inflate(R.layout.event_fragment, container, false)
         val testData = createEventData()
@@ -41,6 +42,7 @@ class EventFragment : Fragment() {
         showDetailActivity.putExtra(Intent.EXTRA_BCC, EventData.EventMapLong.toString())
         startActivity(showDetailActivity)
     }
+
 
     private fun createEventData() : List<EventData> {
         val partList = ArrayList<EventData>()

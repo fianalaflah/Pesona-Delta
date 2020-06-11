@@ -28,6 +28,7 @@ class CityTourDetailActivity : AppCompatActivity() {
 
     }
 
+
     private fun putData(intentThatStartedThisActivity : Intent) {
         var photo = intentThatStartedThisActivity.getStringExtra(Intent.EXTRA_SPLIT_NAME).toInt()
         var nama = intentThatStartedThisActivity.getStringExtra(Intent.EXTRA_COMPONENT_NAME)

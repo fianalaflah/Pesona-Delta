@@ -24,6 +24,7 @@ class InfoDetailActivity : AppCompatActivity() {
 
     }
 
+
     private fun putData(intentThatStartedThisActivity : Intent) {
         var photo = intentThatStartedThisActivity.getStringExtra(Intent.EXTRA_SPLIT_NAME).toInt()
         var nama = intentThatStartedThisActivity.getStringExtra(Intent.EXTRA_COMPONENT_NAME)
@@ -35,6 +36,7 @@ class InfoDetailActivity : AppCompatActivity() {
         InfoPhotoDetail.setImageResource(photo)
         InfoNamaDetail.text = nama
         InfoIdentitasDetail.text = identitas
+
 
         buttonMap.setOnClickListener {
             openMap(mapLat, mapLong, nama)
